@@ -1,13 +1,14 @@
-body { font-family:tahoma; 
+body { font-family:tahoma;
+  font-size: small;
   width: 2200px;
-  padding-left: 20px;
 }
 
 table{border-collapse: collapse;}
 td,th{border: solid 0.5px gray;
   text-align: center;
-  font-size: 4px !important;
+  font-size: xx-small !important;
   font-weight: bold;
+  width:10px;
 }
 .topnum {
   vertical-align: bottom;
@@ -18,7 +19,6 @@ td,th{border: solid 0.5px gray;
 }
 
 .div2 {
-  width:10px;
         align-items: center;
         justify-content: center;
       }
@@ -152,7 +152,7 @@ and (max-width : 1024px) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
-  body { background-color: black; }
+  body { background-color: #DDCECC; }
 }
 
 /* iPads (portrait)  */
@@ -168,5 +168,8 @@ and (orientation : portrait) {
 /* Desktops and laptops */
 @media only screen
 and (min-width : 1025px) {
-   	body { background-color: white; }
+   	body {
+   	  background-color: white;
+   	  padding-left: 20px;
+}
 }
